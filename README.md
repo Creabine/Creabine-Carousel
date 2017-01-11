@@ -1,18 +1,18 @@
 # Creabine Carousel
 ## 介绍
-一款简单的渐变轮播插件
-## 怎么使用
-1 引用文件
+一款简单的渐变轮播插件。
+## 使用
+1 引用文件：
 
 `<link rel="stylesheet" href="Creabine-Carousel.css">`
 
 `<script src="Creabine-Carousel.js"></script>`
     
-2 添加标签
+2 添加标签：
 
 `<div id="carouselRoot"></div>`
 
-3 js调用
+3 js调用：
 
 ```
 var Carousel=new CreabineCarousel(

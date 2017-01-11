@@ -1,0 +1,54 @@
+.CreabineCarousel{
+	width: 100%;
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
+.CreabineCarousel .CreabineCarousel-dotContainer{
+	position:absolute;
+	bottom: 5%;
+	margin:0 auto;
+	z-index: 10;
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	padding: 0;
+}
+.CreabineCarousel .CreabineCarousel-dotContainer .dot{
+	width: 30px;
+	height: 4px;
+	border-radius:3px;
+	background-color:#fff;
+	display: inline-block;
+	margin:0 5px;
+	opacity: 0.7;
+}
+.CreabineCarousel .CreabineCarousel-dotContainer .dot:hover{
+	opacity: 1;
+}
+
+.CreabineCarousel .CreabineCarousel-item{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	transition:all 0.8s;
+}
+.CreabineCarousel .CreabineCarousel-item h1{
+	max-width: 600px;
+	text-align: center;
+	font-size: 5rem;
+	line-height: 1.3;
+	color: #fff;
+	padding: 300px 50px 0 50px;
+	margin:0 auto;
+}
+.CreabineCarousel .CreabineCarousel-item p{
+	max-width: 600px;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 1.4;
+	color: #fff;
+	padding-top: 10px 50px 0 50px;
+	margin:0 auto;
+}

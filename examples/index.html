@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Creabine-Carousel.css">
+    <script src="Creabine-Carousel.js"></script> 
+	<title>Example</title>
+</head>
+<body>
+	
+	<div id="carouselRoot"></div>
+
+<script>
+	new CreabineCarousel({
+		root:'carouselRoot',
+		autoScroll:true,
+		height:500,
+		images:['carousel_1.jpg','carousel_2.jpg','carousel_3.jpg','carousel_4.jpg','carousel_5.jpg'],
+		contant:[
+			{
+				title:"title-1",
+				text:"text-111"
+			},
+			{
+				title:"title-2",
+				text:"text-222"
+			},
+			{
+				title:"title-3",
+				text:"text-333"
+			},
+			{
+				title:"title-4",
+				text:"text-444"
+			},
+			{
+				title:"title-5",
+				text:"text-555"
+			},
+		]
+	});
+</script>
+</body>
+</html>

@@ -13,16 +13,17 @@
 `<div id="carouselRoot"></div>`
 
 3 js调用
-`var Carousel=new CreabineCarousel(
+
+```
+var Carousel=new CreabineCarousel(
     {
         root:"carouselRoot",
         images:[url1,url2,url3,url4,url5,...],
         contant:[{title:"title1",text:"text1"},{title:"title2",text:"text2"},...],
         autoScroll:true
     }
-)`
-
-
+)
+```
 
 ### Options
 | name          | type         | default         | required   |

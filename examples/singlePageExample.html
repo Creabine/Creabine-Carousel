@@ -68,7 +68,7 @@
 <script>
 function CreabineCarousel(options){
 	var imgPathList = options.images;
-    var textList = options.contant;
+    var textList = options.content;
     if (!options.root) {
         throw "require root to this CreabineCarousel";
     }
@@ -76,7 +76,7 @@ function CreabineCarousel(options){
         throw "must provide parameter images";
     }
     if (imgPathList.length != textList.length) {
-        throw "images are not equal to contants";
+        throw "images are not equal to contents";
     }
     var changeCount = 0;
     var timer;
@@ -173,7 +173,7 @@ function CreabineCarousel(options){
 		autoScroll:true,
 		height:700,
 		images:['https://cdn.worktile.com/images/index/index_all_bg_1.jpg?v=4.5.18','https://cdn.worktile.com/images/index/index_all_bg_2.jpg?v=4.5.18','https://cdn.worktile.com/images/index/index_all_bg_3.jpg?v=4.5.18','https://cdn.worktile.com/images/index/index_all_bg_4.jpg?v=4.5.18','https://cdn.worktile.com/images/index/index_all_bg_5.jpg?v=4.5.18'],
-		contant:[
+		content:[
 			{
 				title:"title-1",
 				text:"text-111"

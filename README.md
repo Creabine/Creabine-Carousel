@@ -19,7 +19,7 @@ var Carousel=new CreabineCarousel(
     {
         root:"carouselRoot",
         images:[url1,url2,url3,url4,url5,...],
-        contant:[{title:"title1",text:"text1"},{title:"title2",text:"text2"},...],
+        content:[{title:"title1",text:"text1"},{title:"title2",text:"text2"},...],
         autoScroll:true
     }
 )
@@ -30,7 +30,7 @@ var Carousel=new CreabineCarousel(
 | --------      | ---------    |:----------:     | ----------:| 
 | root          | string       | NaN             |  yes       |
 | images        | Array    	   | NaN             |  yes       |
-| contant       | Object array | NaN             |  yes       |
+| content       | Object array | NaN             |  yes       |
 | autoScroll    | boolean      | false           |  no        |
 | scrollDuration| number       | 5000            |  no        |
 | height	    | number       | 700             |  no        |

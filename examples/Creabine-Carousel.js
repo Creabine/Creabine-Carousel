@@ -10,7 +10,7 @@
 
 function CreabineCarousel(options){
 	var imgPathList = options.images;
-    var textList = options.contant;
+    var textList = options.content;
     if (!options.root) {
         throw "require root to this CreabineCarousel";
     }
@@ -18,7 +18,7 @@ function CreabineCarousel(options){
         throw "must provide parameter images";
     }
     if (imgPathList.length != textList.length) {
-        throw "images are not equal to contants";
+        throw "images are not equal to contents";
     }
     var changeCount = 0;
     var timer;

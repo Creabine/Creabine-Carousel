@@ -1,6 +1,6 @@
 # Creabine Carousel
 ## 介绍
-一款简单的渐变轮播插件。[example](http://creabine.info/mywebsite/demo/Creabine-Carousel.html)
+一款简单的渐变轮播插件。[example](https://creabine.github.io/mywebsite/demo/Creabine-Carousel.html)
 ## 使用
 1 引用文件：
 
